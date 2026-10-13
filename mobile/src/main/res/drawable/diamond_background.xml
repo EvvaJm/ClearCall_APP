@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Outfield Grass -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+    <!-- Infield Dirt -->
+    <path
+        android:fillColor="#A0522D"
+        android:pathData="M100,65 L135,100 L100,135 L65,100 Z" />
+    <!-- Infield Grass -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,80 L120,100 L100,120 L80,100 Z" />
+    <!-- Foul Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M100,170 L30,100 M100,170 L170,100" />
+    <!-- Pitcher's Mound -->
+    <path
+        android:fillColor="#A0522D"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M100,115m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <!-- Home Plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,175 L105,170 L105,165 L95,165 L95,170 Z" />
+</vector>
